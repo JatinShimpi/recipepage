@@ -1,0 +1,124 @@
+body{
+    background-color: $Eggshell;
+    .innerbox{
+        height: 1710px;
+        width: 738px;
+        background-color: $White;
+        margin: 122px auto;
+        border-radius: 28px;
+        box-sizing: border-box;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+}
+.omlette{
+    height: 302px;
+    width: 657px;
+    margin-top: 40px;
+    border-radius: 13px;
+}
+.title{
+    font-family: 'Young Serif', serif;
+    font-size: 33px;
+    font-weight: 150;
+    color: $DarkCharcoal;
+
+}
+.para{
+    @include para;
+}
+.preptime{
+    box-sizing: border-box;
+    background-color: $RoseWhite;
+    border-radius: 13px;
+    height: 182px;
+    
+    h4{
+        padding-top: 30px;
+        padding-left: 30px;
+        font-size: 20px;
+        font-family: 'Outfit', sans-serif;
+        color: $DarkRaspberry;
+    }
+
+    ul{
+        margin-left: 18px;
+        margin-top: 0px;
+    
+        li{
+            color: $WengeBrown;
+            font-size: 15px;
+            margin-bottom: 10px;
+
+            span{
+                @include para;
+                margin-left: 18px;
+            }
+        }
+    }
+}
+
+.ingredients{
+    @include title2;
+}
+
+.ingredients-list{
+    margin-left: -15px;
+
+    li{
+        font-size: 15px;
+        color: $Nutmeg;
+        margin-bottom: 10px;
+
+        span{
+            margin-left: 18px;
+            @include para;
+        }
+    }
+}
+
+hr{
+    color: $Nutmeg;
+    margin-top: 34px;
+}
+
+.instructions{
+    @include title2;
+}
+
+ol{
+    li{
+        color: $Nutmeg;
+        font-family: 'Outfit', sans-serif;
+        margin-bottom: 20px;
+        span{
+            @include para;
+            padding-left: 20px;
+            display: block;
+        }
+    }
+}
+
+.footer{
+
+    .footerhr{
+        color: $Nutmeg;
+        margin-top: 14px;
+        margin-bottom: 14px;
+    }
+   
+    .text{
+        @include para;
+        padding-left: 33px;
+    }
+
+    .content{
+        font-family: 'Outfit', sans-serif;
+        font-weight: bold;
+        color: $Nutmeg;
+    }
+}
+
+
+

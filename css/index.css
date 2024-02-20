@@ -1,0 +1,131 @@
+body {
+  background-color: hsl(30, 54%, 90%);
+}
+body .innerbox {
+  height: 1710px;
+  width: 738px;
+  background-color: hsl(0, 0%, 100%);
+  margin: 122px auto;
+  border-radius: 28px;
+  box-sizing: border-box;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.omlette {
+  height: 302px;
+  width: 657px;
+  margin-top: 40px;
+  border-radius: 13px;
+}
+
+.title {
+  font-family: "Young Serif", serif;
+  font-size: 33px;
+  font-weight: 150;
+  color: hsl(24, 5%, 18%);
+}
+
+.para {
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+}
+
+.preptime {
+  box-sizing: border-box;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 13px;
+  height: 182px;
+}
+.preptime h4 {
+  padding-top: 30px;
+  padding-left: 30px;
+  font-size: 20px;
+  font-family: "Outfit", sans-serif;
+  color: hsl(332, 51%, 32%);
+}
+.preptime ul {
+  margin-left: 18px;
+  margin-top: 0px;
+}
+.preptime ul li {
+  color: hsl(30, 10%, 34%);
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.preptime ul li span {
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+  margin-left: 18px;
+}
+
+.ingredients {
+  font-size: 30px;
+  font-family: "Young Serif", serif;
+  font-weight: 150;
+  color: hsl(14, 45%, 36%);
+}
+
+.ingredients-list {
+  margin-left: -15px;
+}
+.ingredients-list li {
+  font-size: 15px;
+  color: hsl(14, 45%, 36%);
+  margin-bottom: 10px;
+}
+.ingredients-list li span {
+  margin-left: 18px;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+}
+
+hr {
+  color: hsl(14, 45%, 36%);
+  margin-top: 34px;
+}
+
+.instructions {
+  font-size: 30px;
+  font-family: "Young Serif", serif;
+  font-weight: 150;
+  color: hsl(14, 45%, 36%);
+}
+
+ol li {
+  color: hsl(14, 45%, 36%);
+  font-family: "Outfit", sans-serif;
+  margin-bottom: 20px;
+}
+ol li span {
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+  padding-left: 20px;
+  display: block;
+}
+
+.footer .footerhr {
+  color: hsl(14, 45%, 36%);
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+.footer .text {
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+  padding-left: 33px;
+}
+.footer .content {
+  font-family: "Outfit", sans-serif;
+  font-weight: bold;
+  color: hsl(14, 45%, 36%);
+}

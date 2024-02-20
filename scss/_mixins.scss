@@ -1,0 +1,28 @@
+$breakpoint-sm: 357px;
+$breakpoint-lg: 1440px;
+
+@mixin sm {
+    @media(max-width:#{$breakpoint-sm}){
+        @content;
+    }
+}
+
+@mixin lg {
+    @media(max-width:#{$breakpoint-lg}){
+        @content;
+    }
+}
+
+@mixin para {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: $WengeBrown;
+}
+
+@mixin title2 {
+    font-size: 30px;
+    font-family: 'Young Serif', serif;
+    font-weight: 150;
+    color: $Nutmeg;
+}
